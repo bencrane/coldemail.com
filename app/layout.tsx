@@ -55,6 +55,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script defer data-domain="coldemail.com" src="https://plausible.io/js/script.js"></script>
+      </head>
       <body className={`${inter.className} antialiased bg-black text-white`}>
         {children}
       </body>
